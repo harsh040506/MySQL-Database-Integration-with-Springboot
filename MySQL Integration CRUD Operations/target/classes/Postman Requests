@@ -1,0 +1,35 @@
+Postman Requests:
+To check REST APIs you need the Postman.
+
+1.Get all Employees (Get Request):
+http://localhost:8080/Employees
+
+2.Get Employee using Id (Get Employee By Id):
+http://localhost:8080/Employees/(Id)
+Eg: http://localhost:8080/Employees/1
+
+3.Save employee (Post Request):
+http://localhost:8080/Employees
+
+Template to be written in the body during post request:
+    {
+        "firstName":"Harsh",
+        "lastName":"Chhajer",
+        "email":"harshchhajer@gmail.com"
+    }
+
+4.Update employee (Put Request):
+http://localhost:8080/Employees/(Id)
+
+Template to be written in the body during put request:
+    {
+        "firstName":"Harsh",
+        "lastName":"Chhajer",
+        "email":"harshchhajer040506@gmail.com"
+    }
+
+5.Delete Employee (Delete Request):
+http://localhost:8080/Employees/(Id)
+
+Link:https://medium.com/@Lakshitha_Fernando/spring-boot-rest-api-crud-operations-with-mysql-6f4e81382edc
+     https://github.com/lakshitha200/Springboot_Crud/tree/main/exampleDemo01
