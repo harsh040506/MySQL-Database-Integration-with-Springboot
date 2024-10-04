@@ -13,9 +13,9 @@ http://localhost:8080/Employees
 
 Template to be written in the body during post request:
     {
-        "firstName":"Harsh",
-        "lastName":"Chhajer",
-        "email":"harshchhajer@gmail.com"
+        "firstName":"Isolde",
+        "lastName":"Cinderblaze",
+        "email":"Cinderblaze@gmail.com"
     }
 
 4.Update employee (Put Request):
@@ -23,13 +23,10 @@ http://localhost:8080/Employees/(Id)
 
 Template to be written in the body during put request:
     {
-        "firstName":"Harsh",
-        "lastName":"Chhajer",
-        "email":"harshchhajer040506@gmail.com"
+        "firstName":"Selene",
+        "lastName":"Cinderblaze",
+        "email":"Selene.Cinderblaze@gmail.com"
     }
 
 5.Delete Employee (Delete Request):
 http://localhost:8080/Employees/(Id)
-
-Link:https://medium.com/@Lakshitha_Fernando/spring-boot-rest-api-crud-operations-with-mysql-6f4e81382edc
-     https://github.com/lakshitha200/Springboot_Crud/tree/main/exampleDemo01
